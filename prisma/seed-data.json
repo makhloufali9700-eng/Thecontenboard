@@ -1,0 +1,327 @@
+[
+  {
+    "id": "seed-1",
+    "title": "بدون بيع رح تفشل",
+    "type": "Expert",
+    "trigger": "Pain",
+    "status": "Posted",
+    "format": "Talking Head",
+    "summary": "",
+    "script": "جيب احسن فكرة بالعالم واحسن فريق واحسن لوغو وجود احلى مكتب اذا ما عندك سيلز رح تقفل الشركة بعد ٣ شهور\nالفلوس بتجي من العملاء والعملاء بتجي من البيع والبيع ما هو حكي كتير هو استقبال اكتر كم ممكن من المعلومات وتقديم نفسك كحل",
+    "postStatus": "",
+    "metrics": {
+      "views": " 228",
+      "comments": "0",
+      "shares": "2",
+      "saves": "2",
+      "followers": "0"
+    },
+    "perfNotes": "I guess the wording and delivering the idea was ba, the post failed"
+  },
+  {
+    "id": "seed-2",
+    "title": "كيف تعمل فولو اب",
+    "type": "Expert",
+    "trigger": "Pain",
+    "status": "White",
+    "format": "Talking Head",
+    "summary": "عم تعمل ٣ اخططاء \nاعمل الموضوع سهل انو يجاوب\nهوا عم يقرر مو انت\nعم تسال عنك صار معك شي",
+    "script": ""
+  },
+  {
+    "id": "seed-3",
+    "title": "الشغل اليوم يقتل الابداع",
+    "type": "Expert",
+    "trigger": "Relatability",
+    "status": "Green",
+    "format": "Talking Head",
+    "summary": "",
+    "script": "",
+    "postStatus": "",
+    "metrics": {
+      "views": "",
+      "comments": "",
+      "shares": "",
+      "saves": "",
+      "followers": ""
+    },
+    "perfNotes": ""
+  },
+  {
+    "id": "seed-4",
+    "title": "تغيير المفهوم: النجاح مو بس الشغل",
+    "type": "Personal",
+    "trigger": "Curiosity",
+    "status": "White",
+    "format": "",
+    "summary": "كنت مفكر إنو النجاح هو نجاح الشغل بس، وهاد يلي عملته السنة الماضية. بس هالسنة كانت مختلفة: اخدت اجازات، عزمت امي، سافرت مع مرتي، جبت اخوي... وبرضو نجحت بالشغل. (فيها بعد ريليتابيليتي جنب الكيريوسيتي)",
+    "script": ""
+  },
+  {
+    "id": "seed-5",
+    "title": "كيف كنت الأفضل بالأداء",
+    "type": "Personal",
+    "trigger": "Desire",
+    "status": "White",
+    "format": "",
+    "summary": "قصة شخصية عن كيف حافظت على كوني الأفضل أداءً. التفاصيل والزاوية النهائية لسا لازم تتحدد.",
+    "script": ""
+  },
+  {
+    "id": "seed-6",
+    "title": "استقلت بعد ٣ اشهر بس",
+    "type": "Personal",
+    "trigger": "Curiosity",
+    "status": "Blue",
+    "format": "",
+    "summary": "استقلت من شركة بعد ما انضميت الها بـ٣ اشهر، لأنه كان عندهن مشاكل.",
+    "script": ""
+  },
+  {
+    "id": "seed-7",
+    "title": "من بياع لمدير — شو تغير؟",
+    "type": "Personal",
+    "trigger": "Desire",
+    "status": "White",
+    "format": "",
+    "summary": "شو الفرق بين إنك بياع وإنك مدير مبيعات؟ شو تغير فعليًا بالتفكير والمسؤوليات. (فيها بعد كيريوسيتي جنب الديزاير)",
+    "script": ""
+  },
+  {
+    "id": "seed-8",
+    "title": "إعلان الووركشوب",
+    "type": "Selling",
+    "trigger": "Pain",
+    "status": "White",
+    "format": "",
+    "summary": "ريل الإعلان عن الووركشوب.",
+    "script": ""
+  },
+  {
+    "id": "seed-9",
+    "title": "مهارات HSLE غير مستغلة بأعلى شكل",
+    "type": "Selling",
+    "trigger": "Pain",
+    "status": "White",
+    "format": "",
+    "summary": "أصحاب المهارات العالية والدخل المنخفض (HSLE) عندهم مهارات مش مستخدمة لأعلى إمكانياتها.",
+    "script": ""
+  },
+  {
+    "id": "seed-10",
+    "title": "العلاقة بين طريقة الوصول للزبون والربح",
+    "type": "Expert",
+    "trigger": "Relatability",
+    "status": "Posted",
+    "format": "",
+    "summary": "العلاقة بين كيف توصل للزبون وقديش بتربح. مثال: بدك ٥ دولار؟ حط الخدمة عالخمسات. (فيها بعد ديزاير جنب الريلاتيبيليتي)",
+    "script": "بدك 5 دولار اعرض خدماتك على فيفر وخمسات\nبدك100 بيع افراد مباشرة\nبدك1000 اتقن عملك وخلي عملائك يرشح لعملاء\nبدك3000 اعمل برسونال براند وكونت عن المجال\nبدك 5000 بيع خدماتك لشركات\nبدك اكتر سوي اكتر من ٣ و ٤و ٥ ",
+    "postStatus": "",
+    "metrics": {
+      "views": "",
+      "comments": "",
+      "shares": "",
+      "saves": "",
+      "followers": ""
+    },
+    "perfNotes": ""
+  },
+  {
+    "id": "seed-11",
+    "title": "رواتب المبيعات في الامارات",
+    "type": "Engaging",
+    "trigger": "Curiosity",
+    "status": "Posted",
+    "format": "Explanation",
+    "summary": " مقارنة",
+    "script": " رواتب السيلز في الامارات\nانتري ليفيل ٤-٨ \nميد ليفل ٨=-١٤\nسينيو ١٤-٢٠\nسيلز منجر ٢٠-٢٥\nوريني سيلز مسنجر ٢٥-٣٥\nسيلز هيد اكتر من ٣٥\nوفي اربع عوامل بتاثر على هالارقام\nالمجال الامارة حجم الشركة ونوعا والكوميشن",
+    "postStatus": "",
+    "metrics": {
+      "views": "71486",
+      "comments": "114",
+      "shares": "1300",
+      "saves": "386",
+      "followers": "249"
+    },
+    "perfNotes": "The post sucsses \nIt trigger curiosity, and people were debating and discussing in the comments which helps a lot \nThis format and topics needs to be done by me more and more"
+  },
+  {
+    "id": "seed-12",
+    "title": "مقارنة بين مهندسين المبيعات والمهندسين",
+    "type": "Engaging",
+    "trigger": "Desire",
+    "status": "Green",
+    "format": "",
+    "summary": "مقارنة بجدول بين إيجابيات وسلبيات شغل المبيعات بدبي. (فيها بعد كوريوستي جنب الديزاير — شكل الجدول ملحوظة تصميم، مش من الفورمات الأربعة)",
+    "script": "",
+    "postStatus": "",
+    "metrics": {
+      "views": "",
+      "comments": "",
+      "shares": "",
+      "saves": "",
+      "followers": ""
+    },
+    "perfNotes": ""
+  },
+  {
+    "id": "seed-13",
+    "title": "كيف تلاقي شغل بالمبيعات بدبي",
+    "type": "Engaging",
+    "trigger": "Desire",
+    "status": "Blue",
+    "format": "",
+    "summary": "مو حكي عن سيلز بمول — مبيعات حقيقية. (فيها بعد كوريوستي جنب الديزاير)",
+    "script": ""
+  },
+  {
+    "id": "seed-14",
+    "title": "بدبي البيع سهل؟ لأ",
+    "type": "Engaging",
+    "trigger": "Curiosity",
+    "status": "White",
+    "format": "",
+    "summary": "الناس مفكرة إنو البيع بدبي سهل لأنو الناس معها فلوس — خطأ شائع.",
+    "script": ""
+  },
+  {
+    "id": "seed-15",
+    "title": "بولينغ والسترايك — فكرة كالندر الاستمرارية",
+    "type": "Engaging",
+    "trigger": "Relatability",
+    "status": "Parked",
+    "format": "Talking Head",
+    "summary": "فكرة مبنية على بولينغ والسترايك، شبهها بعمل كالندر/تتبع للاستمرارية بالشغل.",
+    "script": ""
+  },
+  {
+    "id": "seed-16",
+    "title": "ليش منحب مستوى جودة غص فرينغ بالشغل",
+    "type": "Engaging",
+    "trigger": "Curiosity",
+    "status": "White",
+    "format": "Cutout",
+    "summary": "ليش منحب مستوى الجودة يلي بيمثله غص فرينغ (Breaking Bad) بالشغل — مثال عن هوس الجودة. (تأكد من الاسم قبل التصوير)",
+    "script": ""
+  },
+  {
+    "id": "seed-17",
+    "title": "روكيت انترنت وسرقة الأفكار",
+    "type": "Engaging",
+    "trigger": "Relatability",
+    "status": "White",
+    "format": "",
+    "summary": "روكيت انترنت سرقوا أفكار، الأفكار وحدها ما إلها قيمة — التنفيذ هو الأهم.",
+    "script": ""
+  },
+  {
+    "id": "seed-18",
+    "title": "ما باعوك منتج، باعوك شعور",
+    "type": "Engaging",
+    "trigger": "Relatability",
+    "status": "Parked",
+    "format": "Cutout",
+    "summary": "دخان، وبعدين فيب، وبعدين باوتش، وبعدين خشبة — كل مرة ما بيبيعوك منتج، عم يبيعوك شعور.",
+    "script": ""
+  },
+  {
+    "id": "seed-19",
+    "title": " طرق تحصيل الشغل بالامارات",
+    "type": "Engaging",
+    "trigger": "Desire",
+    "status": "White",
+    "format": "",
+    "summary": "دليل/زاوية عن كيفية إيجاد شغل بالإمارات. (فيها بعد كوريوستي جنب الديزاير)",
+    "script": ""
+  },
+  {
+    "id": "seed-20",
+    "title": "اسرع طريقة تخسر فيها الديل",
+    "type": "Expert",
+    "trigger": "Curiosity",
+    "status": "White",
+    "format": "",
+    "summary": "أسرع طريقة ممكن تخسر فيها صفقة (ديل).",
+    "script": ""
+  },
+  {
+    "id": "seed-21",
+    "title": "المبيعات سهلة إذا فهمت البروسيس",
+    "type": "Expert",
+    "trigger": "Desire",
+    "status": "Blue",
+    "format": "",
+    "summary": "لو فهمت البروسيس صح، المبيعات بتصير سهلة.\nكوني\nاسال\nديمو\nاعتراضات\nتسكير\nريفيرا واب سيلينغ\n",
+    "script": ""
+  },
+  {
+    "id": "seed-22",
+    "title": "لما يقلك فري لانسر معناها رخيص",
+    "type": "Engaging",
+    "trigger": "Pain",
+    "status": "Blue",
+    "format": "Duet",
+    "summary": "فكرة مبنية على تعبير 'الفرنسي يعني رخيص'. (تأكد من زاوية الفكرة والمرجع قبل الكتابة)",
+    "script": ""
+  },
+  {
+    "id": "seed-23",
+    "title": "صياد ولا مزارع؟",
+    "type": "Expert",
+    "trigger": "Curiosity",
+    "status": "White",
+    "format": "",
+    "summary": "مفهوم الصياد (Hunter) مقابل المزارع (Farmer) بالمبيعات — انت وين؟",
+    "script": ""
+  },
+  {
+    "id": "seed-24",
+    "title": "اخد الطلبات أو البياع الحقيقي",
+    "type": "Expert",
+    "trigger": "Curiosity",
+    "status": "White",
+    "format": "",
+    "summary": "الفرق بين اللي بس بياخد طلبات (Order Taker) والبياع الحقيقي.",
+    "script": ""
+  },
+  {
+    "id": "seed-25",
+    "title": "الملل مفيد",
+    "type": "Engaging",
+    "trigger": "Curiosity",
+    "status": "Yellow",
+    "format": "",
+    "summary": "إنو الملل ممكن يكون مفيد — يفتح مجال للأفكار.",
+    "script": ""
+  },
+  {
+    "id": "seed-26",
+    "title": "New idea",
+    "type": "Expert",
+    "trigger": "Pain",
+    "status": "White",
+    "format": "",
+    "summary": "",
+    "script": ""
+  },
+  {
+    "id": "seed-27",
+    "title": " انواع السيلز",
+    "type": "Expert",
+    "trigger": "Curiosity",
+    "status": "Blue",
+    "format": "",
+    "summary": " ريتيل - عقارات- تقني",
+    "script": ""
+  },
+  {
+    "id": "seed-28",
+    "title": "العوامل الاربعة لي بتاثر على رواتب السيلز في الامارات",
+    "type": "Expert",
+    "trigger": "Curiosity",
+    "status": "Blue",
+    "format": "Talking Head",
+    "summary": "",
+    "script": ""
+  }
+]

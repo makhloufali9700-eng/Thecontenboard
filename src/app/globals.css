@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-paper: #f6f1e6;
+  --color-paper-raised: #fdfaf3;
+  --color-paper-line: #e3d9c4;
+  --color-ink: #241f18;
+  --color-ink-soft: #57503f;
+  --color-ink-faint: #8b8271;
+  --color-accent: #9a4a26;
+  --color-accent-soft: #f1e0d2;
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-arabic: var(--font-arabic);
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+[dir="auto"],
+.rtl-field {
+  font-family: var(--font-arabic), var(--font-body), ui-sans-serif, sans-serif;
+  line-height: 1.75;
+}
+
+::selection {
+  background: var(--color-accent-soft);
+  color: var(--color-ink);
+}
+
+textarea,
+input,
+select {
+  font-family: inherit;
+}
+
+/* Thin warm scrollbars so long script text areas feel calm, not clinical. */
+* {
+  scrollbar-color: var(--color-ink-faint) transparent;
+  scrollbar-width: thin;
+}

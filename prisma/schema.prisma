@@ -1,0 +1,35 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Idea {
+  id     String @id @default(cuid())
+  order  Float  @default(0)
+
+  title  String @default("")
+  type   String @default("Expert")
+  trigger String @default("Pain")
+  status String @default("White")
+  format String @default("")
+
+  summary String @default("")
+  script  String @default("")
+
+  postStatus String @default("")
+
+  metricViews     String @default("")
+  metricComments  String @default("")
+  metricShares    String @default("")
+  metricSaves     String @default("")
+  metricFollowers String @default("")
+
+  perfNotes String @default("")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
