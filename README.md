@@ -5,23 +5,32 @@ A content-planning and performance-tracking tool for **The Bridge by Ali** (Inst
 ## Stack
 
 - Next.js (App Router) + TypeScript
-- Prisma + SQLite for persistent storage
+- Prisma + PostgreSQL for persistent storage
 - Tailwind CSS v4
 
 ## Data model
 
 A single `Idea` entity carries the type/trigger/status/format tags, the summary and full script, and — once an idea is shot or posted — its post status, five performance metrics, and free-form notes. See `prisma/schema.prisma`.
 
-## Getting started
+## Deploying (Vercel + Neon Postgres)
+
+No terminal required beyond the initial `git push` — this is meant to be reachable from a phone/tablet browser.
+
+1. Create a free Postgres database at [neon.tech](https://neon.tech) and copy its connection string.
+2. Import this repo into [vercel.com](https://vercel.com), on the `claude/bridge-content-board-app-82ybtr` branch.
+3. In the Vercel project's Environment Variables, add `DATABASE_URL` set to the Neon connection string (Production, Preview, and Development).
+4. Deploy. The build runs `prisma db push`, which creates the tables in your Postgres database automatically.
+5. Open the deployed URL — the first request to an empty database auto-populates it with the 28 seed ideas (see `src/lib/ensureSeeded.ts`). No manual seed step needed.
+
+## Local development
 
 ```bash
 npm install
-npx prisma db push      # creates prisma/dev.db from the schema
-npm run db:seed         # loads the 28 seed ideas
+# set DATABASE_URL in .env to a reachable Postgres instance (e.g. a Neon connection string)
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000) — the database auto-seeds on first load, same as in production.
 
 ## Views
 
@@ -33,4 +42,4 @@ Open [http://localhost:3000](http://localhost:3000).
 
 - Title, summary, script, and notes fields use `dir="auto"` so Arabic renders right-to-left automatically while the rest of the UI stays left-to-right.
 - Edits are saved via a short debounce (not on blur), plus a flush on tab-close/hide, so nothing is lost if you navigate away mid-edit.
-- `prisma/dev.db` is gitignored — regenerate it with the commands above.
+- `prisma/seed.mjs` (`npm run db:seed`) is still available for manually resetting a database back to the original 28 ideas.

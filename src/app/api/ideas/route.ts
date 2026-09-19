@@ -1,13 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { serializeIdea } from "@/lib/types";
+import { ensureSeeded } from "@/lib/ensureSeeded";
 
 export async function GET() {
+  await ensureSeeded();
   const rows = await prisma.idea.findMany({ orderBy: { order: "asc" } });
   return NextResponse.json(rows.map(serializeIdea));
 }
 
 export async function POST(req: NextRequest) {
+  await ensureSeeded();
   const body = await req.json().catch(() => ({}));
 
   const lowest = await prisma.idea.aggregate({ _min: { order: true } });
